@@ -1,0 +1,146 @@
+.logo-deg{
+  height: 50px;
+}
+header{
+  background-image: url(images/bg12.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-container{
+  height: 100vh;
+}
+body{
+  font-family:  sans-serif;
+}
+h1{
+  font-family: 'roboto';
+}
+.navbar{
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0,0.3);
+}
+.navbar-icon{
+  background-color: white;
+}
+.nav-link{
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.nav-link:hover{
+  color: tomato;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.banner-container h1{
+  font-size: 5rem;
+  background-color: rgb(0, 0, 255,0.9);
+  padding: 10px 20px;
+  margin-left: -8%;
+  font-family: 'Handlee','cursive';
+  border-radius: 5px;
+}
+/* header deg end */
+
+/* main deg start */
+/* feature deg start */
+#feature{
+  padding: 5% 10%;
+  background-color: #e8ded2;
+}
+.feature-col{
+  border: 1px solid #ff02c0;
+  border-radius: 5px;
+  padding: 15px 15px 40px  15px ;
+  margin: 45px;
+  transition: .4s;
+}
+.feature-col:hover{
+  transform: scale(1.1); 
+  box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+  background-color:#bb0aac;
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+}
+/* feature deg end */
+
+/* abourt me design start  */
+.hr-style{
+ border: 5px dotted black;
+ border-bottom: none;
+ width: 50px;
+ border-color: black;
+}
+#about-me{
+  padding: 4% 10%;
+  background-color: #e8ded2 ;
+}
+#about-me p{
+ font-size: 0.9rem;
+ margin-bottom: 0;
+ font-weight: light;
+}
+#about-me a{
+  font-size: 0.9rem;
+ font-weight: lighter;
+ color: black;
+ text-decoration: underline;
+}
+#about-me span{
+  font-weight: 700 !important;
+}
+/* abourt me design end  */
+
+/* tuitorial sec deg start */
+#tuitorial{
+  padding: 4% 10%;
+  background-color: #a3d2ca;
+}
+.card{
+  transition: .4s;
+  border: 1px solid #ff02c0;
+}
+.card:hover{
+  transform: scale(1.01);
+  box-shadow: 2px 6px 5px black;
+}
+/* tuitorial sec deg end */
+#carousel{
+  padding: 4% 10%;
+  background-color: #5eaaa8;
+}
+.button-deg{
+  margin-bottom: 0rem;
+}
+#contact{
+  padding: 2% 10%;
+  background-color: #5eaaa8;
+}
+/* main deg end */
+/* footer design start */
+footer{
+  background-image: url(images/footer\ bg.jpeg);
+  padding: 1% 10%;
+}
+footer a{
+  color: white;
+  margin: 0 10px;
+}
+footer a:hover{
+  color: black;
+}
+/* footer design end*/
+@media (max-width:768px){
+  .nav-link{
+    background-color: rgb(0, 0, 0,0.7);
+  }
+  .banner-container h1{
+    font-size: 2.5rem;
+  }
+}
